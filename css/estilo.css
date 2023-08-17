@@ -1,0 +1,107 @@
+/*Limpar formatações padrão*/
+* {
+margin: 0;
+padding: 0;
+}
+/*Configurações padrões para o body*/
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/*Layout da página*/
+#header-area {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 2px 20px;
+}
+#logo, #menu-nav {
+    padding: 10px;
+}
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#posts-area {
+    width: 660px;
+    float: left;
+
+}
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+#footer-page {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCCCCC;
+}
+/*Fomatações gerais*/
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h2 {
+    color: #F7B600;
+}
+h3 { 
+    color: #565656;
+    background:#CCCCCC;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*Formatações de links*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #F7B600;
+}
+a:hover {
+    text-decoration: underline;
+}
+#menu-nav a:link, #menu-nav a:visited {
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+#menu-nav a:hover {
+    background-color: #FFFFFF;
+    color: #F7B600;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*Classes*/
+.branco {
+    color: #FFFFFF;
+}
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+}
+.data-post {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 1px solid #CCCCCC;
+}
+.materia {
+    text-align: justify;
+}
+.right-content {
+    background: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.right-post {
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 5px;
+}
+.clear {
+    clear: both;
+}
